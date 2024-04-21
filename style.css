@@ -11,7 +11,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/20221018_131929.jpg);
+    background-image: url(images/header.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -85,10 +85,11 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .about-col-1 img{
-    width: 125%;
+    width: 120%;
     height: 100%;
     border-radius: 10px;
 }
+
 .about-col-2{
     flex-basis: 55%;
 }
@@ -140,6 +141,13 @@ nav ul li a:hover::after{
     margin-top: -48%;
 }
 /* -------------------------------------------------contacts ------------------------------------------------------------*/
+.about-col-0 img{
+    width: 30rem;
+    height: 40rem;
+    border-radius: 10px;
+    margin-left: 100px;
+}
+
 .about-col-2 h2{
     justify-content: center;
     margin: 2% 0 2% 10%;
@@ -154,7 +162,7 @@ nav ul li a:hover::after{
 #footer{
     width: 100%;
     height: 100vh;
-    background-image: url(images/20230816_063048.jpg);
+    background-image: url(images/footer.jpg);
     background-size: cover;
     background-position: center;
 }
